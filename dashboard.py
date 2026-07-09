@@ -52,7 +52,7 @@ if df_with is not None and df_wo is not None:
     
     product_mapping = {
         "Euro-super 95": "euro95",
-        "Gas oil automotive (Diesel)": "diesel",
+        "Diesel": "diesel",
         "GPL (LPG)": "LPG"
     }
     
