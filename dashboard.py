@@ -29,7 +29,7 @@ def load_data(url):
 
 st.title("🇪🇺 Weekly Oil Bulletin Price Analytics Dashboard")
 st.markdown("This dashboard monitors and benchmarks fuel developments across the EU from 2005 onwards.")
-st.markdown("Source: Weekly Oil Bulletin Price Developments(https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en)")
+st.markdown("<small>Data source: Weekly Oil Bulletin Price Developments (https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en).</small>", unsafe_allow_headers=False, unsafe_allow_html=True)
 
 
 df_with, df_wo = load_data(URL)
